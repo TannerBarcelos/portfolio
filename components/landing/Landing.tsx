@@ -9,7 +9,7 @@ const Landing = () => {
       <div className='hero-content'>
         <div className='headline'>
           <h2>Tanner Barcelos</h2>
-          <p>I&apos;m a Software Engineer passionate about Big Data & Web Technology, focused on democratizing data through interactive web experiences</p>
+          <p>I&apos;m a Software Engineer passionate about Big Data & Web Technologies</p>
         </div>
         <div className='contact-container'>
           <>
