@@ -39,7 +39,7 @@
   {
     "id": "gwIlfyHX1d",
     "title": "CoinInsights",
-    "link": "https://coininsights.vercel.app/",
+    "link": "https://coin-insights.vercel.app",
     "code_link": "https://github.com/TannerBarcelos/CoinInsights",
     "technologies": ["React", "CSS", "ChartJS"],
     "description": "React application using the CoinGecko API and ChartJS to do data visualizations of Crypto Currency price fluctuations over time. (Login with demo@demo.com and password: Demo123!) for demo experience.",
