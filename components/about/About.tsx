@@ -10,7 +10,7 @@ const About = () => {
         <h1 className='section__heading'>A Little About me</h1>
         <div className='section__content'>
           <div className="top-about">
-            <Image src={ Me } id='me' alt='Profile Image' width={ 300 } height={ 300 } objectFit={ 'cover' } />
+            <Image src={ Me } id='me' alt='Profile Image' width={ 500 } height={ 500 } />
             <p>
               I am an experienced Full Stack Software Engineer with a deep passion for Web Development and Big Data. My primary goal is to bridge the gap between complex data and end users by creating interactive web experiences that make information accessible and engaging.
               <br />
