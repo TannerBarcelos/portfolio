@@ -1,5 +1,25 @@
 [
   {
+    "id": "gwIlfyHX1d",
+    "title": "CoinInsights",
+    "link": "https://coin-insights.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/CoinInsights",
+    "technologies": ["React", "CSS", "ChartJS"],
+    "description": "React application using the CoinGecko API and ChartJS to do data visualizations of Crypto Currency price fluctuations over time. See repo for demo instructions.",
+    "image": "coin",
+    "btnText": "Visit"
+  },
+  {
+    "id": "kcwp90w3Z",
+    "title": "Covid Insider",
+    "link": "https://covid-insider.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/covid-insider",
+    "technologies": ["VanillaJS", "CSS", "ChartJS"],
+    "description": "Website that uses the COVID Tracking Project API to display COVID-19 data for each state in the US. Leveraging ChartJS to display the data in a visual way for the user to easily digest.",
+    "image": "covid",
+    "btnText": "Visit"
+  },
+  {
     "id": "dqWzi9uvM4",
     "title": "Affirmations",
     "link": "https://affirmations-frontend.vercel.app",
@@ -24,26 +44,6 @@
     "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SASS"],
     "description": "A full stack MERN application built on top of Yelps Fusion Business Search API.",
     "image": "coffee_connection",
-    "btnText": "Visit"
-  },
-  {
-    "id": "kcwp90w3Z",
-    "title": "Covid Insider",
-    "link": "https://covid-insider.vercel.app",
-    "code_link": "https://github.com/TannerBarcelos/covid-insider",
-    "technologies": ["VanillaJS", "CSS", "ChartJS"],
-    "description": "Website that uses the COVID Tracking Project API to display COVID-19 data for each state in the US. Leveraging ChartJS to display the data in a visual way for the user to easily digest.",
-    "image": "covid",
-    "btnText": "Visit"
-  },
-  {
-    "id": "gwIlfyHX1d",
-    "title": "CoinInsights",
-    "link": "https://coin-insights.vercel.app",
-    "code_link": "https://github.com/TannerBarcelos/CoinInsights",
-    "technologies": ["React", "CSS", "ChartJS"],
-    "description": "React application using the CoinGecko API and ChartJS to do data visualizations of Crypto Currency price fluctuations over time. See repo for demo instructions.",
-    "image": "coin",
     "btnText": "Visit"
   }
 ]
