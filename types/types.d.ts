@@ -4,7 +4,6 @@ export interface TestimonialProps {
   data: {
     name: string
     position: string
-    association: string
     recommendation: string
     linkedin: string
   }
