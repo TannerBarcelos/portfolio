@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { TechItemProps } from '../../types/types';
+import type { TechItemProps } from '../../../types/types';
 
 const TechnologyItem = ({ icon }: TechItemProps) => {
   return (

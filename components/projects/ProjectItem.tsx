@@ -4,6 +4,8 @@ import covid from '../../assets/img/covid.png'
 import affirmations from '../../assets/img/affirmations.png'
 import Image from 'next/image'
 import type { ProjectProps } from '../../types/types'
+import TechnologiesUsed from './technologies/TechnologiesUsed'
+import ProjectCta from './ProjectCta'
 
 const imgMap = {
   affirmations,
@@ -18,26 +20,8 @@ const ProjectItem = ({ project }: ProjectProps) => {
       <div className='explanation-container'>
         <h3>{ project.title }</h3>
         <p className='project-description'>{ project.description }</p>
-        <div className='technologies-used'>
-          { project.technologies.map((tech, i) => (
-            <span className='tech-span' key={ i }>{ tech }</span>
-          )) }
-        </div>
-        <div className='btn-container'>
-          { project.btnText.length > 0 && <a className='btn' href={ project.link } target='_blank' rel='noreferrer'>
-            { project.btnText }
-          </a> }
-          { project.code_link.length > 0 && (
-            <a
-              className='btn'
-              href={ project.code_link }
-              target='_blank'
-              rel='noreferrer'
-            >
-              GitHub
-            </a>
-          ) }
-        </div>
+        <TechnologiesUsed project={ project } />
+        <ProjectCta project={ project } />
       </div>
       <div style={ { padding: "1rem" } }>
         {/* @ts-ignore */ }

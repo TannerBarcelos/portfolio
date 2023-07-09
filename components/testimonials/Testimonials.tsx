@@ -1,4 +1,4 @@
-import TestimonialItem from '../projects/TestimonialItem'
+import TestimonialItem from './TestimonialItem'
 import testimonials from '../../assets/data/testimonials.json'
 
 const Testimonials = () => {
