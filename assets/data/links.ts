@@ -28,6 +28,6 @@ export const links = [
   {
     url: 'https://blog.tannerbarcelos.com',
     icon: faHashnode,
-    name: 'Blog',
+    name: 'Hashnode',
   },
 ]
