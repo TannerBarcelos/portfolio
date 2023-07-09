@@ -6,7 +6,5 @@ and represents some of my work and interests. As I learn more, I will continue t
 ## Technologies
 
 - Next.js
-- Tailwind CSS
-- Bootstrap
 - TypeScript
-- Netlify
+- Vercel
