@@ -31,13 +31,6 @@ export interface ProjectProps {
   }
 }
 
-export interface ImageMap<T extends StaticImageData> {
-  affirmations: T
-  coffee_connection: T
-  coin: T
-  covid: T
-}
-
 export type IconArray = Array<{
   name: string
   path: string
