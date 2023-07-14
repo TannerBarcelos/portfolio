@@ -4,7 +4,7 @@ import TechnologiesUsed from './technologies/TechnologiesUsed'
 import ProjectCta from './ProjectCta'
 
 const ProjectItem = ({ project }: ProjectProps) => {
-  const imagePath = `/assets/img/${project.imageName}.png`
+  const imagePath = `/img/${project.imageName}.png`
   return (
     <div className='project-item' >
       <div className='explanation-container'>
