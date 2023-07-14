@@ -1,7 +1,7 @@
 import {
   faLinkedin,
   faGithub,
-  faHashnode,
+  faBlogger,
 } from '@fortawesome/free-brands-svg-icons'
 
 export const links = [
@@ -27,7 +27,7 @@ export const links = [
   },
   {
     url: 'https://blog.tannerbarcelos.com',
-    icon: faHashnode,
-    name: 'Hashnode',
+    icon: faBlogger,
+    name: 'Blog',
   },
 ]
