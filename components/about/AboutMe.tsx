@@ -1,10 +1,9 @@
-import Me from '../../assets/img/me.jpeg'
 import Image from 'next/image.js'
 
 const AboutMe = () => {
     return (
         <div className="top-about">
-            <Image src={ Me } id='me' alt='Profile Image' width={ 500 } height={ 500 } />
+            <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 500 } height={ 500 } />
             <p>
                 I am an experienced Full Stack Software Engineer with a deep passion for Web Development and Big Data. My primary goal is to bridge the gap between complex data and end users by creating interactive web experiences that make information accessible and engaging.
                 <br />

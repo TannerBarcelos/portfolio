@@ -1,4 +1,4 @@
-import { links } from '../../assets/data/links'
+import { links } from '../../public/data/links'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import type { LinkType } from '../../types/types'
 

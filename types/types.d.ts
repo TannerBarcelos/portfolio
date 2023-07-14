@@ -1,16 +1,16 @@
 type TestimonialDataType = {
-    name: string
-    position: string
-    recommendation: string
-    linkedin: string
+  name: string
+  position: string
+  recommendation: string
+  linkedin: string
 }
 export interface TestimonialProps {
   data: TestimonialDataType
 }
 
 type IconType = {
-    path: string
-    name: string
+  path: string
+  name: string
 }
 export interface TechItemProps {
   icon: IconType
@@ -18,27 +18,26 @@ export interface TechItemProps {
 
 type TechnologiesType = Array<string>
 type Project = {
-    id: string
-    title: string
-    link: string
-    code_link: string
-    technologies: TechnologiesType
-    description: string
-    image: string
-    btnText: string
+  id: string
+  title: string
+  link: string
+  code_link: string
+  technologies: TechnologiesType
+  description: string
+  imageName: string
+  btnText: string
 }
 export interface ProjectProps {
   project: Project
 }
 
 type ThemedImgType = {
-    dark: string,
-    light: string
+  dark: string
+  light: string
 }
 export interface ImageMapType {
   [imgName: string]: ThemedImgType
 }
-
 
 export type IconArray = Array<IconType>
 

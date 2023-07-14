@@ -1,4 +1,4 @@
-import projects from '../../assets/data/projects.json'
+import projects from '../../public/data/projects.json'
 import ProjectItem from './ProjectItem'
 
 const ProjectList = () => {
