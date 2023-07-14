@@ -1,20 +1,10 @@
-import coffee_connection from '../../assets/img/coffee_connection.png'
-import coin from '../../assets/img/coininsights.png'
-import covid from '../../assets/img/covid.png'
-import affirmations from '../../assets/img/affirmations.png'
 import Image from 'next/image'
 import type { ProjectProps } from '../../types/types'
 import TechnologiesUsed from './technologies/TechnologiesUsed'
 import ProjectCta from './ProjectCta'
 
-const imgMap = {
-  affirmations,
-  coffee_connection,
-  coin,
-  covid
-}
-
 const ProjectItem = ({ project }: ProjectProps) => {
+  const imagePath = `/assets/img/${project.imageName}.png`
   return (
     <div className='project-item' >
       <div className='explanation-container'>
@@ -24,8 +14,7 @@ const ProjectItem = ({ project }: ProjectProps) => {
         <ProjectCta project={ project } />
       </div>
       <div style={ { padding: "1rem" } }>
-        {/* @ts-ignore */ }
-        <Image src={ imgMap[project.image] } width={ 700 } height={ 450 } objectFit={ 'cover' } />
+        <Image src={ imagePath } width={ 700 } height={ 450 } objectFit={ 'cover' } />
       </div>
     </div>
   )

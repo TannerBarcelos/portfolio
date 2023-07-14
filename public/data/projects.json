@@ -13,7 +13,7 @@
       "Firebase"
     ],
     "description": "Track cryptocurrency prices, market cap, and volume and get insights on the latest news and trends in the crypto space",
-    "image": "coin",
+    "imageName": "coin",
     "btnText": "Visit"
   },
   {
@@ -23,7 +23,7 @@
     "code_link": "https://github.com/TannerBarcelos/covid-insider",
     "technologies": ["VanillaJS", "CSS", "ChartJS"],
     "description": "Track COVID-19 related data for the United States",
-    "image": "covid",
+    "imageName": "covid",
     "btnText": "Visit"
   },
   {
@@ -41,7 +41,7 @@
       "Linode"
     ],
     "description": "Gain self confidence, improve how you tackle and improve your mental health and foster the ability to think and learn from your past to improve your future. (Application is in server migration so app link is not available at this time)",
-    "image": "affirmations",
+    "imageName": "affirmations",
     "btnText": ""
   },
   {
@@ -51,7 +51,7 @@
     "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
     "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
     "description": "Find coffee shops near you - anytime, anywhere",
-    "image": "coffee_connection",
+    "imageName": "coffee_connection",
     "btnText": "Visit"
   }
 ]

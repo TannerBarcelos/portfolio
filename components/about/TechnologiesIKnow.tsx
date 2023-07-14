@@ -1,4 +1,4 @@
-import { iconArray } from '../../assets/icons'
+import { iconArray } from '../../public/icons'
 import TechnologyItem from '../projects/technologies/TechnologyItem'
 
 const TechnologiesIKnow = () => {
