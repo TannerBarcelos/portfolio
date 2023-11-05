@@ -1,0 +1,52 @@
+[
+  {
+    "id": "gwIlfyHX1d",
+    "title": "CoinInsights",
+    "link": "https://coin-insights.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/CoinInsights",
+    "technologies": [
+      "React",
+      "CSS",
+      "ChartJS",
+      "Vercel",
+      "Firebase"
+    ],
+    "imageName": "coin",
+    "btnText": "Visit"
+  },
+  {
+    "id": "kcwp90w3Z",
+    "title": "Covid Insider",
+    "link": "https://covid-insider.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/covid-insider",
+    "technologies": ["VanillaJS", "CSS", "ChartJS"],
+    "imageName": "covid",
+    "btnText": "Visit"
+  },
+  {
+    "id": "dqWzi9uvM4",
+    "title": "Affirmations",
+    "link": "",
+    "code_link": "https://github.com/TannerBarcelos/Affirmation",
+    "technologies": [
+      "React",
+      "Redux Toolkit",
+      "TypeScript",
+      "Express",
+      "MongoDB",
+      "Vercel",
+      "Linode"
+    ],
+    "imageName": "affirmations",
+    "btnText": ""
+  },
+  {
+    "id": "2AsG3KpfoR",
+    "title": "Coffee Connection",
+    "link": "https://coffee-connection.vercel.app/",
+    "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
+    "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
+    "imageName": "coffee_connection",
+    "btnText": "Visit"
+  }
+]
