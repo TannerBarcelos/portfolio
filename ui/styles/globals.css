@@ -334,6 +334,8 @@ body {
 
   .section__content .technologies_container {
     padding: 10px;
+    width: 95%;
+    margin: 3rem auto 0 auto;
   }
 
   .technologies_container span {
@@ -364,7 +366,7 @@ body {
 
   .cta {
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .project-item .project-description {
@@ -399,7 +401,7 @@ body {
 
   .project-item {
     padding: 0;
-    margin-bottom: 1rem;
+    width: 95%;
   }
 
   .project-item:nth-child(even),
@@ -442,13 +444,22 @@ body {
     flex-direction: column;
   }
 
+  .top-about p {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
   .recommendation_container .rec-card {
-    padding: .3rem;
-    margin: 0;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 95%;
   }
 
   .section__content .technologies_container {
     max-width: 100%;
   }
+
+  .container {
+    padding: 1rem;
+  }
+
 }

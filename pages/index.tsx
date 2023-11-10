@@ -7,13 +7,15 @@ import Testimonials from '@/components/sections/testimonials/Testimonials'
 
 const Home: NextPage = () => {
   return (
-    <>
+    <main >
       <Head><title>Tanner Barcelos</title></Head>
-      <Landing />
-      <About />
-      <Projects />
-      <Testimonials />
-    </>
+      <div className='container'>
+        <Landing />
+        <About />
+        <Projects />
+        <Testimonials />
+      </div>
+    </main>
   )
 }
 
