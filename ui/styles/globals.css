@@ -281,6 +281,7 @@ body {
   background-color: var(--color-card-bg);
   border: 2px solid var(--color-btn-bg);
   border-radius: var(--radius);
+  padding: 1rem 1rem;
 }
 
 .card-title {

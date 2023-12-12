@@ -26,6 +26,10 @@ export const iconArray = [
     path: '/icons/fastapi.png',
   },
   {
+    name: 'nest',
+    path: '/icons/nest.png',
+  },
+  {
     name: 'tailwind',
     path: '/icons/tailwind.png',
   },
@@ -40,11 +44,31 @@ export const iconArray = [
     path: '/icons/mongodb.svg',
   },
   {
-    name: 'pg',
-    path: '/icons/pg.png',
+    name: 'mysql',
+    path: '/icons/mysql.svg',
   },
+  {
+    name: 'redis',
+    path: '/icons/redis.svg',
+  },
+  // {
+  //   name: 'pg',
+  //   path: '/icons/pg.png',
+  // },
   {
     name: 'docker',
     path: '/icons/docker.png',
+  },
+  {
+    name: 'cypress',
+    path: '/icons/cy.png',
+  },
+  {
+    name: 'jest',
+    path: '/icons/jest.png',
+  },
+  {
+    name: 'figma',
+    path: '/icons/figma.png',
   },
 ] as IconArray

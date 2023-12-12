@@ -6,8 +6,8 @@ const TechnologyItem = ({ icon }: TechItemProps) => {
     <Image
       src={ icon.path }
       alt={ `${icon.name}` }
-      width={ 60 }
-      height={ 120 }
+      width={ 50 }
+      height={ 60 }
       objectFit={ 'contain' }
     />
   );

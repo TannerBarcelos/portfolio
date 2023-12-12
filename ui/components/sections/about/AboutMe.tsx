@@ -5,16 +5,18 @@ const AboutMe = () => {
         <div className="top-about">
             <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 500 } height={ 500 } />
             <p>
-                I am an experienced Full Stack Software Engineer with a deep passion for Web Development. My primary goal is to bridge the gap between complex data and end users by creating interactive web experiences that make information accessible and engaging.
-                <br />
-                <br />
-                Not only do I enjoy making data experiences better, but I am very passionate about productivity and I enjoy building applications that make life easier and more engaging.
-                <br />
-                <br />
-                Throughout my career, I have honed my skills in both front-end and back-end development, allowing me to tackle a wide range of projects and deliver comprehensive solutions. I thrive on the challenge of transforming intricate data sets into user-friendly interfaces that empower individuals to make informed decisions and gain valuable insights.
-                <br />
-                <br />
-                Beyond my technical proficiency, I am a collaborative team player who values effective communication and enjoys working in dynamic environments. I thrive on constantly learning and staying up-to-date with the latest trends and advancements in the fields of web development and big data.
+                As a Senior Full Stack Software Engineer at Visa Data & AI Platform, I bring a dynamic blend of skills and experiences, specializing in creating cutting-edge software solutions.
+
+                My expertise lies in developing web platforms that enhance data observability, utilizing a tech stack that includes React, Redux, ChartJS, MaterialUI, Figma, and more.
+                <br /><br />
+                I have played a pivotal role in transforming user experience, particularly in designing UX for AI-powered business intelligence and an admin UI for Visa fraud detection platform.
+                <br /><br />
+                Prior to Visa, my tenure at Scalable Commerce involved leading a team in CRM platform development and migrating web applications to containerized AWS workloads, where I significantly improved customer service efficiency and retention rates.
+                <br /><br />
+                My technical proficiency spans across a broad spectrum, from frontend technologies like HTML, CSS, React, NextJS, to backend systems using NodeJS, Express, and various databases. Additionally, I possess strong skills in DevOps, utilizing tools like Docker, Kubernetes, and AWS.
+                <br /><br />
+                Equipped with a Bachelor of Science in Computer Science from California State University, East Bay, I continue to apply my comprehensive knowledge and diverse skill set to innovate and drive technological advancement.
+                <br /><br />
             </p>
         </div>
     )
