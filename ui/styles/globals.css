@@ -176,6 +176,7 @@ body {
   background-color: var(--color-card-bg);
   border: 2px solid var(--color-btn-bg);
   padding: 1rem;
+  position: relative;
 }
 
 .explanation-container {
@@ -183,6 +184,19 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
+}
+
+.project-item .construction-pill {
+  display: block;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  padding: 5px;
+  color: var(--color-btn);
+  border: 1px solid var(--color-btn-bg);
+  background-color: var(--color-btn-bg);
+  border-radius: var(--radius);
+  font-size: 10px;
 }
 
 .project-item .explanation-container h3 {
@@ -245,8 +259,9 @@ body {
   align-items: center;
   justify-content: center;
   border: .25px solid var(--pleasant);
-  border-radius: 25px;
+  border-radius: var(--radius);
   margin: .4rem;
+  height: 2rem;
 }
 
 .section__content {
@@ -425,7 +440,9 @@ body {
   .explanation-container {
     width: 98%;
     padding-left: 0;
+    position: relative;
   }
+
 
   .btn-container {
     margin: 1rem 0;

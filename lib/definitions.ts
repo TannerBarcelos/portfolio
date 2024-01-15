@@ -25,6 +25,7 @@ type Project = {
   technologies: TechnologiesType
   imageName: string
   btnText: string
+  underConstruction: boolean
 }
 export interface ProjectProps {
   project: Project

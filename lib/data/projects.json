@@ -1,27 +1,42 @@
 [
   {
+    "id": "oljg3KpfoR",
+    "title": "Spendaro",
+    "link": "",
+    "code_link": "https://github.com/TannerBarcelos/Spendaro",
+    "technologies": [
+      "Typescript",
+      "React",
+      "Express",
+      "Docker",
+      "MySQL",
+      "Zustand",
+      "Redis",
+      "Vercel"
+    ],
+    "imageName": "spendaro",
+    "btnText": "",
+    "underConstruction": true
+  },
+  {
+    "id": "2AsG3KpfoR",
+    "title": "Coffee Connection",
+    "link": "https://coffee-connection.vercel.app/",
+    "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
+    "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
+    "imageName": "coffee_connection",
+    "btnText": "Visit",
+    "underConstruction": false
+  },
+  {
     "id": "gwIlfyHX1d",
     "title": "CoinInsights",
     "link": "https://coin-insights.vercel.app",
     "code_link": "https://github.com/TannerBarcelos/CoinInsights",
-    "technologies": [
-      "React",
-      "CSS",
-      "ChartJS",
-      "Vercel",
-      "Firebase"
-    ],
+    "technologies": ["React", "CSS", "ChartJS", "Vercel", "Firebase"],
     "imageName": "coin",
-    "btnText": "Visit"
-  },
-  {
-    "id": "kcwp90w3Z",
-    "title": "Covid Insider",
-    "link": "https://covid-insider.vercel.app",
-    "code_link": "https://github.com/TannerBarcelos/covid-insider",
-    "technologies": ["VanillaJS", "CSS", "ChartJS"],
-    "imageName": "covid",
-    "btnText": "Visit"
+    "btnText": "Visit",
+    "underConstruction": false
   },
   {
     "id": "dqWzi9uvM4",
@@ -38,15 +53,17 @@
       "Linode"
     ],
     "imageName": "affirmations",
-    "btnText": ""
+    "btnText": "",
+    "underConstruction": false
   },
   {
-    "id": "2AsG3KpfoR",
-    "title": "Coffee Connection",
-    "link": "https://coffee-connection.vercel.app/",
-    "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
-    "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
-    "imageName": "coffee_connection",
-    "btnText": "Visit"
+    "id": "kcwp90w3Z",
+    "title": "Covid Insider",
+    "link": "https://covid-insider.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/covid-insider",
+    "technologies": ["VanillaJS", "CSS", "ChartJS"],
+    "imageName": "covid",
+    "btnText": "Visit",
+    "underConstruction": false
   }
 ]
