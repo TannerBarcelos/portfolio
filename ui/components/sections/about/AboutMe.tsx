@@ -3,20 +3,15 @@ import Image from 'next/image.js'
 const AboutMe = () => {
     return (
         <div className="top-about">
-            <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 500 } height={ 500 } />
+            <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 400 } height={ 400 } />
             <p>
-                As a Senior Full Stack Software Engineer at Visa Data & AI Platform, I bring a dynamic blend of skills and experiences, specializing in creating cutting-edge software solutions.
-
-                My expertise lies in developing web platforms that enhance data observability, utilizing a tech stack that includes React, Redux, ChartJS, MaterialUI, Figma, and more.
+                As a Senior Full Stack Software Engineer at Visa Data & AI Platform, I specialize in developing cutting-edge software solutions. My expertise includes creating web platforms with technologies such as React, Redux, ChartJS, MaterialUI, Figma, and more.
                 <br /><br />
-                I have played a pivotal role in transforming user experience, particularly in designing UX for AI-powered business intelligence and an admin UI for Visa fraud detection platform.
+                I&apos;ve played a crucial role in transforming user experience, focusing on designing UX for AI-powered business intelligence and an admin UI for Visa&apos;s fraud detection platform.
                 <br /><br />
-                Prior to Visa, my tenure at Scalable Commerce involved leading a team in CRM platform development and migrating web applications to containerized AWS workloads, where I significantly improved customer service efficiency and retention rates.
+                Before Visa, at Scalable Commerce, I led a team in CRM platform development and migrated web applications to containerized AWS workloads, significantly improving customer service efficiency and retention rates.
                 <br /><br />
-                My technical proficiency spans across a broad spectrum, from frontend technologies like HTML, CSS, React, NextJS, to backend systems using NodeJS, Express, and various databases. Additionally, I possess strong skills in DevOps, utilizing tools like Docker, Kubernetes, and AWS.
-                <br /><br />
-                Equipped with a Bachelor of Science in Computer Science from California State University, East Bay, I continue to apply my comprehensive knowledge and diverse skill set to innovate and drive technological advancement.
-                <br /><br />
+                My technical proficiency spans frontend technologies like HTML, CSS, React, NextJS, and backend systems using NodeJS, Express, and various databases. Additionally, I have strong DevOps skills, utilizing tools like Docker, Kubernetes, and AWS.
             </p>
         </div>
     )
