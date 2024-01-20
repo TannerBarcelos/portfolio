@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.5",
     "bootstrap": "^5.2.2",
     "faker": "^5.5.3",
     "miragejs": "^0.1.45",
