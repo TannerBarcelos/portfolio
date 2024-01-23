@@ -18,6 +18,10 @@ export const iconArray = [
     path: '/icons/react.svg',
   },
   {
+    name: 'angular',
+    path: '/icons/angular.png',
+  },
+  {
     name: 'next',
     path: '/icons/next.svg',
   },
