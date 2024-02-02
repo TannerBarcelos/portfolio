@@ -17,6 +17,6 @@ export const links = [
   },
   {
     name: 'Resume',
-    url: 'https://drive.google.com/file/d/1-m2rhfT51OqCjveIqoPPovC1Ikm1ww60/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/19d1jD1_wlMKoamTMX_r-8rzUVnj4m2qT/view?usp=sharing',
   },
 ]
