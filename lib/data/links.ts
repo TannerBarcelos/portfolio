@@ -13,10 +13,10 @@ export const links = [
   },
   {
     url: 'mailto:barcelos.m.tanner@gmail.com?subject=Reaching Out',
-    name: 'Contact',
+    name: 'Reach Out',
   },
   {
-    name: 'Resumé',
+    name: 'Resume',
     url: 'https://drive.google.com/file/d/1-m2rhfT51OqCjveIqoPPovC1Ikm1ww60/view?usp=sharing',
   },
 ]
