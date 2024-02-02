@@ -26,6 +26,7 @@ type Project = {
   imageName: string
   btnText: string
   underConstruction: boolean
+  isWorkProject: boolean
 }
 export interface ProjectProps {
   project: Project

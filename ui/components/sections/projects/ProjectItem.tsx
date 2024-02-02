@@ -10,6 +10,7 @@ const ProjectItem = ({ project }: ProjectProps) => {
     <div className='project-item' >
       <div className='explanation-container'>
         <h3>{ project.title }</h3>
+        { project.isWorkProject && <p className='work-project'>This was a project built while working at Visa</p> }
         { underConstruction && <span className='construction-pill'>Under Construction</span> }
         <TechnologiesUsed project={ project } />
         <ProjectCta project={ project } />

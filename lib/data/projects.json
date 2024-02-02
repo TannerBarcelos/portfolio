@@ -1,5 +1,24 @@
 [
   {
+    "id": "44sL3NpfoR",
+    "title": "BI Secretary",
+    "link": "",
+    "code_link": "",
+    "technologies": [
+      "Typescript",
+      "React",
+      "Zustand",
+      "NovaCSS (Visa CSS Library)",
+      "Apache Superset",
+      "Docker",
+      "Visa ChatGPT"
+    ],
+    "imageName": "bi_secretary",
+    "btnText": "",
+    "underConstruction": false,
+    "isWorkProject": true
+  },
+  {
     "id": "oljg3KpfoR",
     "title": "Spendaro",
     "link": "",
@@ -16,7 +35,8 @@
     ],
     "imageName": "spendaro",
     "btnText": "",
-    "underConstruction": true
+    "underConstruction": true,
+    "isWorkProject": false
   },
   {
     "id": "2AsG3KpfoR",
@@ -26,7 +46,8 @@
     "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
     "imageName": "coffee_connection",
     "btnText": "Visit",
-    "underConstruction": false
+    "underConstruction": false,
+    "isWorkProject": false
   },
   {
     "id": "gwIlfyHX1d",
@@ -36,7 +57,8 @@
     "technologies": ["React", "CSS", "ChartJS", "Vercel", "Firebase"],
     "imageName": "coin",
     "btnText": "Visit",
-    "underConstruction": false
+    "underConstruction": false,
+    "isWorkProject": false
   },
   {
     "id": "dqWzi9uvM4",
@@ -54,7 +76,8 @@
     ],
     "imageName": "affirmations",
     "btnText": "",
-    "underConstruction": false
+    "underConstruction": false,
+    "isWorkProject": false
   },
   {
     "id": "kcwp90w3Z",
@@ -64,6 +87,7 @@
     "technologies": ["VanillaJS", "CSS", "ChartJS"],
     "imageName": "covid",
     "btnText": "Visit",
-    "underConstruction": false
+    "underConstruction": false,
+    "isWorkProject": false
   }
 ]
