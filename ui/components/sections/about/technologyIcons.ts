@@ -64,6 +64,10 @@ export const iconArray = [
     path: '/icons/docker.png',
   },
   {
+    name: 'kubernetes',
+    path: '/icons/k8s.svg',
+  },
+  {
     name: 'cypress',
     path: '/icons/cy.png',
   },
