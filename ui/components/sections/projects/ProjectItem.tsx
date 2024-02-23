@@ -10,12 +10,12 @@ const ProjectItem = ({ project }: ProjectProps) => {
     <div className='project-item' >
       <div className='explanation-container'>
         <h3>{ project.title }</h3>
-        { project.isWorkProject && <p className='work-project'>This was a project built while working at Visa</p> }
+        { project.isWorkProject && <p className='work-project'>This is a project built while working at Visa</p> }
         { underConstruction && <span className='construction-pill'>Under Construction</span> }
         <TechnologiesUsed project={ project } />
         <ProjectCta project={ project } />
       </div>
-      <div style={ { padding: "1rem" } }>
+      <div className="project-img" style={ { padding: "1rem" } }>
         <Image src={ imagePath } width={ 800 } height={ 450 } alt={ project.imageName } />
       </div>
     </div>

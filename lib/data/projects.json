@@ -11,7 +11,7 @@
       "NovaCSS (Visa CSS Library)",
       "Apache Superset",
       "Docker",
-      "Visa ChatGPT"
+      "OpenAI API (GPT-4)"
     ],
     "imageName": "bi_secretary",
     "btnText": "",
