@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { TechItemProps } from '@/lib/definitions';
 
-const TechnologyItem = ({ icon }: TechItemProps) => {
+function TechnologyItem({ icon }: TechItemProps) {
   return (
     <Image
       src={ icon.path }

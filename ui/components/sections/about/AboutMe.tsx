@@ -1,6 +1,6 @@
 import Image from 'next/image.js'
 
-const AboutMe = () => {
+function AboutMe() {
     return (
         <div className="top-about">
             <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 400 } height={ 400 } />

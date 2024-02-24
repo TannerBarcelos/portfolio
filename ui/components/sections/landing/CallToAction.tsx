@@ -1,13 +1,13 @@
 import { links } from '@/lib/data/links'
 import type { LinkType } from '@/lib/definitions'
-import AccessibleAnchor from '@/components/common/AccessibleAnchor'
+import A11YLink from '@/components/common/AccessibleAnchor'
 
-const CallToAction = () => {
+function CallToAction() {
     return (
         <div className='contact-container'>
             { links.map(({ name, url }: LinkType) => {
                 return (
-                    <AccessibleAnchor
+                    <A11YLink
                         name={ name }
                         url={ url }
                         key={ name }
@@ -17,4 +17,5 @@ const CallToAction = () => {
         </div>
     )
 }
+
 export default CallToAction

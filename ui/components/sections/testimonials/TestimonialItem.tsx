@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import type { TestimonialProps } from '@/lib/definitions';
 
-const TestimonialItem = ({ data }: TestimonialProps) => {
+function TestimonialItem({ data }: TestimonialProps) {
   return (
     <Card className='rec-card'>
       <Card.Body>

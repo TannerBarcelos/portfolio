@@ -1,14 +1,14 @@
 import projects from '@/lib/data/projects.json'
 import ProjectItem from './ProjectItem'
 
-const ProjectList = () => {
+function ProjectList() {
     return (
         <>
-            { projects.map((project, i) => {
+            { projects.map((project) => {
                 return (
                     <ProjectItem
                         project={ project }
-                        key={ i }
+                        key={ project.id }
                     />
                 )
             }) }

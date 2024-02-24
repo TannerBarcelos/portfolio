@@ -1,7 +1,7 @@
 import AboutMe from './AboutMe'
 import KnownTech from './KnownTech'
 
-const About = () => {
+function About() {
   return (
     <section className='section_container' id='about' aria-label="About Tanner Barcelos">
       <div className='about'>

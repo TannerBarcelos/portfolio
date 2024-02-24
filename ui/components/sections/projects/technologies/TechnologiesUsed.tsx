@@ -1,10 +1,10 @@
 import type { ProjectProps } from '@/lib/definitions'
 
-const TechnologiesUsed = ({ project: { technologies } }: ProjectProps) => {
+function TechnologiesUsed({ project: { technologies } }: ProjectProps) {
     return (
         <div className='technologies-used'>
-            { technologies.map((tech, i) => (
-                <span className='tech-span' key={ i }>{ tech }</span>
+            { technologies.map((techItem, i) => (
+                <span className='tech-span' key={ i }>{ techItem }</span>
             )) }
         </div>
     )

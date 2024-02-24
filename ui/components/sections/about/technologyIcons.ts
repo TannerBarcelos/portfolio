@@ -6,12 +6,16 @@ export const iconArray = [
     path: '/icons/ts.png',
   },
   {
-    name: 'node',
-    path: '/icons/node.png',
-  },
-  {
     name: 'python',
     path: '/icons/python.svg',
+  },
+  {
+    name: 'go',
+    path: '/icons/go.png',
+  },
+  {
+    name: 'node',
+    path: '/icons/node.png',
   },
   {
     name: 'react',

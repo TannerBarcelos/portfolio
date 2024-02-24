@@ -1,12 +1,12 @@
 import type { ProjectProps } from '@/lib/definitions'
-import AccessibleAnchor from '@/ui/components/common/AccessibleAnchor'
+import A11YLink from '@/ui/components/common/AccessibleAnchor'
 
-const ProjectCta = ({ project }: ProjectProps) => {
+function ProjectCta({ project }: ProjectProps) {
     return (
         <div className='btn-container'>
-            { project.btnText.length > 0 && <AccessibleAnchor name={ project.btnText } url={ project.link } /> }
+            { project.btnText.length > 0 && <A11YLink name={ project.btnText } url={ project.link } /> }
             { project.code_link.length > 0 && (
-                <AccessibleAnchor
+                <A11YLink
                     name='Github'
                     url={ project.code_link }
                 />

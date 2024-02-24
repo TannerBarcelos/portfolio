@@ -1,7 +1,7 @@
 import { iconArray } from './technologyIcons'
 import TechnologyItem from '../projects/technologies/TechnologyItem'
 
-const KnownTech = () => {
+function KnownTech() {
     return (
         <div className='technologies_container'>
             { iconArray.map((icon, i) => (

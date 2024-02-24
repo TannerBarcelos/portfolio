@@ -1,6 +1,6 @@
 import ProjectList from './ProjectList'
 
-const Projects = () => {
+function Projects() {
   return (
     <section className='section_container' id='projects' aria-label="Tanner's projects">
       <div className='projects'>
