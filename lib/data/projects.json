@@ -33,7 +33,7 @@
       "Redis",
       "Vercel"
     ],
-    "imageName": "spendaro",
+    "imageName": "spendaro-v2",
     "btnText": "",
     "underConstruction": true,
     "isWorkProject": false
