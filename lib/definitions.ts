@@ -32,14 +32,6 @@ export interface ProjectProps {
   project: Project
 }
 
-type ThemedImgType = {
-  dark: string
-  light: string
-}
-export interface ImageMapType {
-  [imgName: string]: ThemedImgType
-}
-
 export type IconArray = Array<IconType>
 
 export type LinkType = {

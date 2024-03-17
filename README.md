@@ -8,4 +8,3 @@ and represents some of my work and interests and more about my skills.
 - Next.js
 - TypeScript
 - Vercel
-# portfolio

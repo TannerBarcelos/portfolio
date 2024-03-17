@@ -33,7 +33,7 @@
       "Redis",
       "Vercel"
     ],
-    "imageName": "spendaro-v2",
+    "imageName": "spendaro",
     "btnText": "",
     "underConstruction": true,
     "isWorkProject": false
@@ -76,17 +76,6 @@
     ],
     "imageName": "affirmations",
     "btnText": "",
-    "underConstruction": false,
-    "isWorkProject": false
-  },
-  {
-    "id": "kcwp90w3Z",
-    "title": "Covid Insider",
-    "link": "https://covid-insider.vercel.app",
-    "code_link": "https://github.com/TannerBarcelos/covid-insider",
-    "technologies": ["VanillaJS", "CSS", "ChartJS"],
-    "imageName": "covid",
-    "btnText": "Visit",
     "underConstruction": false,
     "isWorkProject": false
   }

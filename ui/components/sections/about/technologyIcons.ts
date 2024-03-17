@@ -6,12 +6,12 @@ export const iconArray = [
     path: '/icons/ts.png',
   },
   {
-    name: 'python',
-    path: '/icons/python.svg',
-  },
-  {
     name: 'go',
     path: '/icons/go.png',
+  },
+  {
+    name: 'python',
+    path: '/icons/python.svg',
   },
   {
     name: 'node',
@@ -30,23 +30,13 @@ export const iconArray = [
     path: '/icons/next.svg',
   },
   {
-    name: 'fastapi',
-    path: '/icons/fastapi.png',
-  },
-  {
-    name: 'nest',
-    path: '/icons/nest.png',
-  },
-  {
     name: 'tailwind',
     path: '/icons/tailwind.png',
   },
-
   {
     name: 'redux',
     path: '/icons/redux.svg',
   },
-
   {
     name: 'mongodb',
     path: '/icons/mongodb.svg',
@@ -59,10 +49,6 @@ export const iconArray = [
     name: 'redis',
     path: '/icons/redis.svg',
   },
-  // {
-  //   name: 'pg',
-  //   path: '/icons/pg.png',
-  // },
   {
     name: 'docker',
     path: '/icons/docker.png',
@@ -70,14 +56,6 @@ export const iconArray = [
   {
     name: 'kubernetes',
     path: '/icons/k8s.svg',
-  },
-  {
-    name: 'cypress',
-    path: '/icons/cy.png',
-  },
-  {
-    name: 'jest',
-    path: '/icons/jest.png',
   },
   {
     name: 'figma',

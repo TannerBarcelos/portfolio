@@ -5,13 +5,13 @@ function AboutMe() {
         <div className="top-about">
             <Image src={ '/img/me.jpeg' } id='me' alt='Profile Image' width={ 400 } height={ 400 } />
             <p>
-                As a Senior Full Stack Software Engineer at Visa, I specialize in developing cutting-edge UI platforms for operations and BI. My expertise includes creating web interfaces with technologies such as React, Redux, ChartJS, MaterialUI, and more.
+                As a Senior Full Stack Software Engineer at Visa, I specialize in crafting cutting-edge UI platforms tailored for operations and BI, leveraging technologies like React, Redux, ChartJS, and MaterialUI.
+                <br /> <br />
+                At Visa, I&apos;ve spearheaded the development of a revolutionary chatbot for conversational business intelligence, empowering leaders with real-time insights, and contributed to enhancing operational efficiency by developing control plane API and UI components for AI Platform operations.
+                <br /> <br />
+                Prior to Visa, at Scalable Commerce, I led teams in CRM platform development and orchestrated the migration of web applications to containerized AWS workloads, driving significant improvements in customer service efficiency.
                 <br /><br />
-                At Visa, I significantly contributed to the design and development of a chatbot for conversational business intelligence, enhancing decision-making for business leaders with real-time performance insights. I also developed a control plane API and UI components for AI Platform operations to manage and monitor machine learning models, improving operational efficiency and reducing costs.
-                <br /><br />
-                Before Visa, at Scalable Commerce, I led a team in CRM platform development and migrated web applications to containerized AWS workloads, significantly improving customer service efficiency and retention rates.
-                <br /><br />
-                My technical proficiency spans frontend technologies like HTML, CSS, React, NextJS, and backend systems using NodeJS, Express, and various databases. Additionally, I have strong DevOps skills, utilizing tools like Docker, Kubernetes, and AWS.
+                With a strong technical foundation spanning frontend and backend technology, I am committed to improving user experience and streamlining operational excellence in a distributed, cloud-native environment.
             </p>
 
         </div>
