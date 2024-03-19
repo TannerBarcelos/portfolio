@@ -52,8 +52,8 @@
   {
     "id": "gwIlfyHX1d",
     "title": "CoinInsights",
-    "link": "https://coin-insights.vercel.app",
-    "code_link": "https://github.com/TannerBarcelos/CoinInsights",
+    "link": "https://coininsights.vercel.app",
+    "code_link": "https://github.com/TannerBarcelos/Coinsights",
     "technologies": ["React", "CSS", "ChartJS", "Vercel", "Firebase"],
     "imageName": "coin",
     "btnText": "Visit",
