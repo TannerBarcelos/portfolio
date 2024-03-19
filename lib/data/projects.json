@@ -39,23 +39,23 @@
     "isWorkProject": false
   },
   {
-    "id": "2AsG3KpfoR",
-    "title": "Coffee Connection",
-    "link": "https://coffee-connection.vercel.app/",
-    "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
-    "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
-    "imageName": "coffee_connection",
-    "btnText": "Visit",
-    "underConstruction": false,
-    "isWorkProject": false
-  },
-  {
     "id": "gwIlfyHX1d",
     "title": "CoinInsights",
     "link": "https://coininsights.vercel.app",
     "code_link": "https://github.com/TannerBarcelos/Coinsights",
     "technologies": ["React", "CSS", "ChartJS", "Vercel", "Firebase"],
     "imageName": "coin",
+    "btnText": "Visit",
+    "underConstruction": false,
+    "isWorkProject": false
+  },
+  {
+    "id": "2AsG3KpfoR",
+    "title": "Coffee Connection",
+    "link": "https://coffee-connection.vercel.app/",
+    "code_link": "https://github.com/TannerBarcelos/Coffee-Client",
+    "technologies": ["React", "Redux Toolkit", "Express", "MongoDB", "SCSS"],
+    "imageName": "coffee_connection",
     "btnText": "Visit",
     "underConstruction": false,
     "isWorkProject": false
