@@ -24,12 +24,12 @@
     "link": "",
     "code_link": "https://github.com/TannerBarcelos/Spendaro",
     "technologies": [
-      "Typescript",
       "React",
-      "Express",
+      "TypeScript",
+      "Golang",
+      "Echo Framework",
       "Docker",
       "MySQL",
-      "Zustand",
       "Redis",
       "Vercel"
     ],

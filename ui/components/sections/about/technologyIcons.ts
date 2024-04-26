@@ -22,20 +22,12 @@ export const iconArray = [
     path: '/icons/react.svg',
   },
   {
-    name: 'angular',
-    path: '/icons/angular.png',
-  },
-  {
     name: 'next',
     path: '/icons/next.svg',
   },
   {
     name: 'tailwind',
     path: '/icons/tailwind.png',
-  },
-  {
-    name: 'redux',
-    path: '/icons/redux.svg',
   },
   {
     name: 'mongodb',

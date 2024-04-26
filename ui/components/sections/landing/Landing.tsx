@@ -6,7 +6,7 @@ function Landing() {
       <div className='hero-content'>
         <div className='headline' aria-label='Landing page headline section'>
           <h2>Tanner Barcelos</h2>
-          <p>I am a passionate Full Stack Engineer with a strong focus on web development and product design.</p>
+          <p>Senior ML Engineer passionate about building beautiful and intuitive web platfroms that simplify MLOps</p>
         </div>
         <CallToAction />
       </div>
